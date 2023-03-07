@@ -3,7 +3,7 @@
 @media screen and (min-width: 927px){
 main{
     display: flex;
-    justify-content: space-evenly;
+    margin: 0px;
 
 }
 
@@ -31,6 +31,5 @@ form{
 
 .preco{
     width: 80%;
- 
 }
 }
