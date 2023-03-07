@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="estilos/mobile.css">
+  <link rel="stylesheet" href="estilos/desktop.css">
+  
+</head>
+<body>
+
+  <main>
+    <div class="titulo">
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+
+    </div>
+
+    
+
+    <section class="formulario">
+ 
+      <div class="preco"><p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p></div>
+
+      <form action="" method="post" autocomplete="on" id="form">
+
+        <div class="primeiroNome input">
+          <img src="images/icon-error.svg" alt="" class="error">
+        <label for="primeiroNome" class="label">First Name</label>
+        <input type="text" name="primeiroNome" id="firstName">
+        <p class="msgError">First Name cannot be empty</p>
+          </div>
+        
+        <div class="lastName input">
+          <img src="images/icon-error.svg" alt="" class="error">
+          <label for="lastName" class="label">Last Name</label>
+          <input type="text" name="lastName" id="lastName">
+          <p class="msgError">Last Name cannot be empty</p>
+        </div>
+
+        <div class="email input">
+          <img src="images/icon-error.svg" alt="" class="error">
+          <label for="email" class="label">Email Address</label>
+          <input type="text" name="email" id="email" class="email">
+          <p class="msgError">Looks like this is not an email</p>
+        </div>
+
+        <div class="password input">
+          <img src="images/icon-error.svg" alt="" class="error">
+          <label for="password" class="label">Password</label>
+          <input type="password" name="password" id="password" class="password">
+          <p class="msgError">Password cannot be empty</p>
+        </div>
+        <button class="botao">Claim your free trial</button>
+        
+      <p class="termos">By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
+      </form>
+    
+
+    
+
+  </section>
+  </main>
+  
+  <script src="checkInput.js"></script>
+ 
+</body>
+</html>
